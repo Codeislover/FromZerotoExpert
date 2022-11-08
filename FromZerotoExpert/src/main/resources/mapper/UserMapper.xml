@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.Usermapper">
+    <resultMap id="brandresultmap" type="User"/>
+
+
+<!--    <select id="selevtById" resultType="Stu">-->
+<!--        select *-->
+<!--        from Stu-->
+<!--        where id-->
+<!--        <![CDATA[-->
+<!--            <-->
+<!--        ]]>-->
+<!--              #{id};-->
+<!--    </select>-->
+
+<!--    &lt;!&ndash;多条件(模糊)查询&ndash;&gt;-->
+<!--    <select id="selectByCondition" resultType="Stu">-->
+<!--        select *-->
+<!--        from Stu-->
+<!--        <where>-->
+<!--            <if test="id!=null">-->
+<!--                and id > #{id}-->
+<!--            </if>-->
+<!--            <if test="age!=null">-->
+<!--                and age>#{age}-->
+<!--            </if>-->
+<!--            <if test="name!=null and name!=''">-->
+<!--                and name like #{name};-->
+<!--            </if>-->
+<!--        </where>-->
+<!--    </select>-->
+
+<!--    &lt;!&ndash;单条件查询&ndash;&gt;-->
+<!--    <select id="selectBySingleCondition" resultType="com.test.pojo.Stu">-->
+<!--        select*-->
+<!--        from Stu-->
+<!--        <where>-->
+<!--            <choose>-->
+<!--                <when test="id!=null">-->
+<!--                    id=#{id}-->
+<!--                </when>-->
+<!--                <when test="age!=null">-->
+<!--                    age=#{age}-->
+<!--                </when>-->
+<!--                <when test="name!=null and name!=''">-->
+<!--                    name like #{name}-->
+<!--                    #{name};-->
+<!--                </when>-->
+<!--            </choose>-->
+<!--        </where>-->
+<!--    </select>-->
+
+<!--    <insert id="add" useGeneratedKeys="true" keyProperty="id">-->
+<!--        insert into Stu (name, address, age)-->
+<!--        values (#{name}, #{address}, #{age});-->
+<!--    </insert>-->
+
+<!--    <delete id="delByIdIn">-->
+
+<!--    </delete>-->
+<!--    <update id="update">-->
+<!--        update Stu-->
+<!--        <set>-->
+<!--            <if test="id!=null">id=#{id},</if>-->
+<!--            <if test="name!=null and name!=''">name=#{name},</if>-->
+<!--            <if test="age!=null">age=#{age},</if>-->
+<!--            <if test="address!=null">address=#{}</if>-->
+<!--        </set>-->
+<!--        where id = #{id};-->
+
+<!--    </update>-->
+
+<!--    <delete id="deleteById">-->
+<!--        delete-->
+<!--        from Stu-->
+<!--        where id = #{id};-->
+<!--    </delete>-->
+<!--    <delete id="deleteByIds">-->
+
+<!--        delete-->
+<!--        from Stu-->
+<!--        where id in (-->
+<!--        <foreach collection="ids" item="id" separator=",">-->
+<!--            #{id}-->
+<!--        </foreach>-->
+<!--        )-->
+<!--    </delete>-->
+</mapper>

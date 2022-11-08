@@ -6,10 +6,10 @@
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
     <servlet-name>FromZerotoExpert</servlet-name>
-    <servlet-class>web_one.Servlet_first</servlet-class>
+    <servlet-class>web.LoginServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>FromZerotoExpert</servlet-name>
-    <url-pattern>/one</url-pattern>
+    <url-pattern>/login</url-pattern>
   </servlet-mapping>
 </web-app>

@@ -1,0 +1,30 @@
+body{
+    background-image:url("/img/bgd1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.d1 {
+
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    right: 200px;
+    top:200px;
+    background-color: rgba(75, 81, 95, 0.3);
+    box-shadow: 7px 7px 17px rgba(52, 56, 66, 0.5);
+    border-radius: 5px;
+
+}
+#in1, #in2 {
+    border-style: hidden;
+    position: static;
+    padding-left: 100px;
+    padding-right: 40px;
+    background-color: rgba(216, 191, 216, 0.5);
+    outline: none;
+    color: #f0edf3;
+}
